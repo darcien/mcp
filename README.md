@@ -9,7 +9,7 @@ The `main` branch and the tags are upstream, without changes.
 
 ## How releases are made
 
-1. Each day, [`release.yml`](.github/workflows/release.yml) finds the latest
+1. Each day, [`fork-release.yml`](.github/workflows/fork-release.yml) finds the latest
    stable upstream release.
 2. If this fork has no release for that tag, the workflow builds the upstream
    commit of the tag. It applies the files in `patches/` first, if there are any.

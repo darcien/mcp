@@ -8,7 +8,7 @@
 # Patches in patches/*.patch (on this branch) are applied in name order on
 # top of the upstream source before the build.
 
-name: Release
+name: Fork release
 
 on:
   schedule:
